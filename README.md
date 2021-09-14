@@ -19,7 +19,7 @@ Source of dataset is kaggle.
 
 
 #### How to use the trained model:
-1. Actual numbers don't matter, just that it's a number
+1. Install following required libraries
     1. cv2
     2. streamlit
     3. PIL
