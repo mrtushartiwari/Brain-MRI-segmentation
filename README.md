@@ -30,5 +30,11 @@ Source of dataset is kaggle.
 
 `streamlit run application.py`
 
-5. Sample images for trying out model  [Inerence Images](https://drive.google.com/drive/folders/1-3Wz-Og_Fb91zPAFXUkRHWbc3avW-3EJ?usp=sharing)
+5. Sample images for trying out model  [Inference Images](https://drive.google.com/drive/folders/1-3Wz-Og_Fb91zPAFXUkRHWbc3avW-3EJ?usp=sharing)
+
+
+##### Sample runtime output of application
+
+
+![Sample application output](https://imgur.com/U9eBEOL.png)
 
