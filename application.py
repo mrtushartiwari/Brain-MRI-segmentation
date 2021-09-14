@@ -41,7 +41,10 @@ elif option == 'Multiple MRI scans':
         st.write("Images Uploaded Successfully")
         # Perform your Manupilations (In my Case applying Filters)
         for i in range(len(uploaded_file)):
-            img = load_preprocess_image(uploaded_file[i])
+            img = final_fun_1(uploaded_file[i])
+            st.write(img)
+            img = load_preprocess_image(str(img))
+
             st.image(img)
             
     else:
@@ -58,5 +61,4 @@ if result:
 	uploaded_file = st.empty()
 	predict_button = st.empty()
 	caching.clear_cache()
-
 
